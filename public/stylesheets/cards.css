@@ -1,0 +1,35 @@
+.cards{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+};
+
+.card{
+    text-align: center;
+    border-color: white;
+    margin: 5px;
+    
+}
+.imagen{
+    box-shadow: 15px 10px 10px white;
+}
+body{
+    background-image: url(/imagen/fondoadvengers.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bannertitulo{
+   max-width: 1024px;
+   max-height:420px;
+}
+.containerbanner{
+    opacity: 0.8;
+     text-align: center;
+     background: black;
+ }
+h1{
+    color: #c70000;
+    
+}
